@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ph Tube API</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="px-8 py-8">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <img src="/images/Logo.png" alt="" />
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-red-500 text-white">Blog</a>
+        </div>
+      </div>
+      <br />
+      <hr />
+    </header>
+    <main>
+      <section>
+        <div
+          id="category-container"
+          class="flex flex-wrap justify-center gap-4 mb-4"
+        ></div>
+      </section>
+      <section>
+        <div
+          id="card-container"
+          class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4"
+        ></div>
+      </section>
+
+      <script src="/script/phtube.js"></script>
+    </main>
+    <footer></footer>
+  </body>
+</html>
